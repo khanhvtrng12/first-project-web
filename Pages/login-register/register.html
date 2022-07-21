@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" href="../../font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <title>ĐĂNG KÝ - STEAMVN STORE</title>
+</head>
+<script src="../../Javascript/app.js"></script>
+<body>
+    <div class="container">
+    <div class="container-item">
+    <div class="card">
+        <div class="card_title">
+            <img src="../../images/zyro-image.png" alt=""><h3>Đăng Ký</h3>
+        </div>
+        <form name="frm_DK" method="post" onsubmit="return KiemTraDK();" action="../../bt.html">
+        <input class="input-login" type="text" name="txt_name" placeholder="Họ và Tên" >
+        <input class="input-login" type="number" name="txt_sdt" placeholder="Số điện thoại">
+        <div style="background-color: white;  margin: 20px 30px 0px 30px; width: 83%;">
+            <input class="input-password" type="text" name="txt_password" placeholder="Mật Khẩu" id="pwd">
+            <i class="far fa-eye" id-"eye" style="cursor: pointer;" onclick="HidePassword()"></i>
+        </div>
+        <div style="background-color: white;  margin: 20px 30px 0px 30px; width: 83%;">
+            <input class="input-password" type="text" name="txt_password_confirm" placeholder="Xác nhận mật Khẩu">
+            <i class="far fa-eye" id-"eye" style="cursor: pointer;" onclick="HidePassword_s()"></i>
+        </div>
+        <div class="card_action">
+            <button class="btn-login">ĐĂNG Ký</button>
+        </div>
+        <div class="dieukhoan-dichvu">
+            <input class="" type="checkbox" name="chk_dieukhoan">
+            <p>Đồng ý <a href="../../Pages/404 not found/404.html">điều khoản chính sách và dịch vụ</a></p>
+        </div> 
+        <div class="another-login">
+            <div class="line-login"></div>
+            <div class="tiltle-anotherlogin">Hoặc</div>
+            <div class="line-login"></div>
+        </div>
+        <div class="app">
+        <div class="login-facebook">
+            <a href="https://facebook.com"><img class="icon" src="../../images/facebook-pink.png" alt="">
+            <span>Facebook</span></a>
+        </div>  
+        <div class="login-google">
+            <a href="https://google.com"><img class="icon" src="../../images/google-pink.jpg" alt="">
+            <span>Google</span></a>
+        </div> 
+        </div>
+        <div class="dacotaikhoan">
+            <p> Bạn đã có tài khoản?</p>
+            <a href="login.html">Đăng nhập</a>
+        </div>
+    </form>
+    </div>
+    </div>
+	</div>
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <div id="introduce">
+            <h2>STEAMVN<sup> &#174;</sup> STORE</h2>
+                <p>Địa chỉ: Việt Nam<br>SĐT:086666xxx<br>Email:<a href="mailto:steamvnshop@gmail.com">steamvnshop@gmail.com</a></p>
+                <a href="https://facebook.com"><img class="icon" src="../../images/facebook-pink.png" alt=""> </a>  
+                    <a href="https://zalo.me"><img class="icon"src="../../images/zalo-pink.png" alt="">   </a>
+                        <a href="mailto:steamvnshop@gmail.com"><img class="icon"src="../../images/mail-pink.png" alt="">   </a>
+                            <a href="https://www.messenger.com"><img class="icon"src="../../images/messenger-pink.png" alt="">   </a>
+        </div>
+    </footer>
+</body>
+</html>

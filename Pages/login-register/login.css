@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 100%;
+    height:100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.container-item{
+    width:415px;
+    height: 520px;
+    margin:auto;
+    margin-top: 15vh;
+    margin-bottom: 50px;
+}
+.card{
+    width:415px;
+    height:100%;
+    background: #fbc2eb;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.input-login{
+    margin: 20px 30px 0px 30px;
+    padding-left: 5px;
+    width: 83%;
+    height: 30px;
+    border: 0;
+    outline:none;
+}
+.img5{
+    height:224px !important;
+}
+
+.card_title{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    display: flex;
+}
+.card_title img{
+    height:50px;
+}
+.card_title h3{
+    padding-top:10px;
+}
+.card_action button{
+    width:83%;
+    background: black;
+    border:none;
+    outline:none;
+    color: white;
+    margin-top: 15px ;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-login:hover{
+    background-color:#474747;
+}
+.remember-login{
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.remember-login a:hover{
+    color: aqua;
+}
+.another-login{
+    margin-left: 30px;
+    margin-top: 5px;
+    display:flex;
+}
+.line-login{
+    width: 132px;
+    height:10px;
+    border-bottom: 3px solid hsla(0,0%,100%,.4);
+    float: left;
+}
+.tiltle-anotherlogin{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.app{
+    width:81%;
+    height: 35px;
+    margin-top: 10px ;
+    margin-left: 30px;
+    display: flex;
+}
+.login-facebook{
+    width:120px;
+    height: 35px;
+    background-color: rgb(244, 237, 239);
+    border-radius: 5px;
+    margin-right: 55px;
+    margin-left: 5px;
+}
+.login-facebook a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+.login-google{
+    width:120px;
+    height: 35px;
+    display: flex;
+    background-color: rgb(244, 237, 239);
+    border-radius: 5px;
+}
+.login-google a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+.login-facebook span{
+    padding-left: 5px;
+    padding-top:8px;
+    color: violet;
+    font-size: 15px;
+    font-weight: bold;
+}
+.login-google span{
+    padding-left: 5px;
+    padding-top:8px;
+    color: violet;
+    font-size: 15px;
+    font-weight: bold;
+}
+.icon{
+    width: 35px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius:5px;
+    float: left;
+}
+#footer{
+    width: 100%;
+    height: 155px;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    margin-top: auto;
+}
+#introduce{
+    margin: auto;
+    padding:10px;
+    width: 1140px;
+    height: 100%;
+    text-align:left;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+#introduce img{
+	margin-top: 5px;
+	margin-right: 10px;
+}
+#introduce a:hover{
+    color: aquamarine !important;
+}
+/* Đăng ký chính sách và dịch vụ */
+.dieukhoan-dichvu{
+    margin-top: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height:30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    display:flex;
+}
+.dieukhoan-dichvu p{
+    padding-left: 7px;
+    font-size: 14px;
+    padding-top: 3px;
+}
+.dieukhoan-dichvu input{
+    height:20px;
+    width: 20px;
+}
+.dacotaikhoan{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+.dacotaikhoan p{
+    float:left;
+}
+.dacotaikhoan h5{
+    float : left;
+}
+a:hover{
+    color: aquamarine;
+}
+.input-password{
+    padding-left: 5px;
+    width: 89%;
+    height: 30px;
+    border: 0;
+    outline:none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
